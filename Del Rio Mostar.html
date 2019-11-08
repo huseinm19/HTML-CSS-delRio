@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML5 Layout</title>
+    <style>
+	body{
+		background-image: url("images/wp1874174.jpg");
+	}
+	header{
+		background-image:url("images/viemd-passion-5264-hor-feat.jpg");
+		height: 160px;
+		border-bottom:gray solid 30px;
+		width:100%;
+	}
+	aside{
+		background:white;
+		float:left;
+		width: 30%;
+	}
+	.courses{
+		background:white;
+		float:left;
+		width:70%;
+	}
+	article{
+		clear:right;
+		clear:left;
+		background:white;
+		padding-top: 20px;
+		padding-left:-20px;
+	}
+	figure{
+		float:left;
+		width:290px;
+		border: lightblue solid 2px;
+		padding: 4px;
+	}
+	
+	footer{
+		clear:left;
+		background-color:gray;
+		border-bottom:15px gray solid;
+		
+	}
+	.wrapper{
+		width:940px;
+		margin:auto;
+	}
+	li{
+		display:inline;
+		margin:10px;
+	}
+	ul{
+    padding-top:110px;
+		margin:10px;
+	}
+	a{
+		color:white;
+		text-decoration: none;
+	}
+	h3{
+		margin: -10px;
+		color:lightcoral;
+	}
+	h1{
+		
+		color:white;
+	}
+  .recepti{
+		color:lightcoral;
+	}
+	.kontakt{
+		float:left;
+		padding-bottom: 101px;
+		padding-top:160px;
+		margin-left:10px;
+	}
+	#slika1{
+		width:100%;
+	}
+	#slika2{
+		width:100%;
+	}
+	#popularni{
+		margin-left:15px;
+	}
+	</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Restoran Del Rio Mostar</h1>
+				<nav>
+					<ul>
+						<li><a href="./Del Rio Mostar.html">JELOVNIK</a></li>
+						<li><a href="./O nama.html">O NAMA</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="courses">
+				<article>
+		
+					<figure>
+						<img src="images/imgQnxBKL4Kdn1508667673.jpg" id ="slika1"/>
+						<figcaption>Bruschetta marinara</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Marinara</h2>
+						<h3>Cijena: 10KM </h3>
+					</hgroup>
+					<p>Sastojci: šnite kruha sa nadjevom rajčice, bosiljka, maslina i češnjaka</p>
+				</article>    
+				<article>
+					<figure>
+						<img src="images/Salata-od-hobotnice-s-krumpirima-i-lukom-8.jpg" id="slika2" />
+						<figcaption>Salata od hobotnice</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Hobotnica</h2>
+						<h3>Cijena: 15KM</h3>
+					</hgroup>
+					<p>Sastojci: hobotnica, crveni luk, bijeli luk, kapari, limun, maslinovo ulje, svj. zač. bilje.</p>
+				</article>    
+			</section>
+			<aside>
+				<section  id="popularni">
+					<h2>Poplurani recepti</h2>
+					<a class="recepti" href="">Carpaccio al salmone:5KM</a><br>
+					<a class="recepti" href="">Carpaccio Capricossa:6KM</a><br>
+					<a class="recepti" href="">Carpaccio-Piemonte:7KM</a><br>
+					<a class="recepti" href="">Mozzarela alla capresse:8KM</a><br>
+				</section>
+				<section class="kontakt">
+					<h2>Kontakt</h2>
+					<p>Del Rio Mostar<br />
+						Tel: +387(36)321445<br />
+						Adresa: Kardinala Stepinca 12, Mostar<br />
+						Email: delrio@gmail.com</p>
+				</section>
+			</aside>
+			<footer>
+				&copy; Restoran Del Rio Mostar
+			</footer>
+		</div><!-- .wrapper -->
+	</body>
+</html>
